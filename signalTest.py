@@ -9,7 +9,7 @@ class MyWindow(QWidget):
 
     def initWindow(self):
         lcd = QLCDNumber(self) #슬로
-        dial = QDial(self)#시그널
+        dial = QDial(self)#시그널g
 
         vbox = QVBoxLayout()
         vbox.addWidget(lcd)
