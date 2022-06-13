@@ -32,7 +32,7 @@ class MyWindow(QWidget):
         self.show()
 
     def resizeBig(self):
-        self.resize(400,400)
+        self.resize(400,400)#
 
     def resizeSmall(self):
         self.resize(150,150)
