@@ -12,7 +12,7 @@ class MyWindow(QWidget):
         lcd = QLCDNumber(self) #슬롯
         dial = QDial(self)#시그널
         btn1 = QPushButton('BIG', self)
-        btn2 = QPushButton('SMALL', self)#gg
+        btn2 = QPushButton('SMALL', self)#ggㅎ
 
         hbox = QHBoxLayout()
         hbox.addWidget(btn1)
