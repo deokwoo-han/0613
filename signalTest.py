@@ -9,7 +9,7 @@ class MyWindow(QWidget):
 
 
     def initWindow(self):
-        lcd = QLCDNumber(self) #슬롯
+        lcd = QLCDNumber(self) #슬롯h
         dial = QDial(self)#시그널
         btn1 = QPushButton('BIG', self)
         btn2 = QPushButton('SMALL', self)
